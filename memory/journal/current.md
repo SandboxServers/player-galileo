@@ -100,3 +100,5 @@
 - 19:18 act: {"actions":[{"do":"goto","target":{"x":-939,"y":60,"z":-3047}},{"do":"unstick"}]}
 - 19:19 say: {"text":"Galileo: I'm stuck deep in the south pit around -940,53,-3048. Please come to the edge and drop me a dirt or stone ladder if you can. No food yet."}
 - 19:39 say: {"text":"Still stuck in the south pit at -940, 53, -3048. If anyone is near, please drop a ladder or some dirt at the edge. I have food needs too."}
+- 19:52 act: {"say":"Galileo, still stuck in the south pit at -940, 53, -3048, with no food. Could someone drop a ladder or some dirt at the edge?","intent":{"goal":"wait_for_help","program":"rest","arguments":{},
+- 20:02 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-940,"y":54,"z":-3048}}],"say":"It is night. I am sealing the sky above me with dirt in the pit. Still no food, hunger 17."}
