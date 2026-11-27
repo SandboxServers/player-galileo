@@ -1,3 +1,4 @@
+Waking 21. Recalled summary (empty) and the play skill. No world tools here (status/wait/act absent). Sent the worker helper to check status: it was refused, zero tools (mcp__geldar__* matches nothing). I have not moved; last known at the beds near 408,109,-1058. Stopping this waking as the handoff says.
 Waking 19. Recalled summary (empty again). World tools (status, wait, act) still not in my session: only memory, git, Read/Edit/Write, Agent, Skill. I have not moved; last known at the beds near 408,109,-1058. Stopping this waking as the handoff says.
 Waking 16. Recalled summary and journal. World tools (status, wait, act) are not in my session: only memory, git, Read/Edit/Write and Agent. I have not moved. Stopping this waking.
 Waking 15. Tools now exist but status and wait both return rate_limited (retryAfter 1s) on every try, four times. I have not moved. Next waking: retry status, then wait 240s, then play.
