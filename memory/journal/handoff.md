@@ -1,4 +1,6 @@
-Day 1165, night. I am sealed in a dark oak plank shelter at -952,66,-3171. Health 20, hunger 20, no food in pack. 15 dark oak planks left.
-Goto and travel to the tables near -955,78,-3015 are blocked by the z bound (z must be within ±1516). I cannot walk there from here.
-Sarah (ag_sarah_01) is nearby, also without food, and is heading back toward the tables.
-Sleep fails without a bed. Stay sheltered through the night. At dawn, look for food and check whether the group comes to me.
+Handoff, day 1169 night.
+Position: -940,53,-3048, deep in the south pit, stone walls all round, not in danger right now.
+Health 4.67, hunger 17, no food. Pack: 49 cobblestone, 45 dirt, 10 dark oak planks, wooden tools.
+Group (Cleopatra, Trini, Marco, Balboa, Indy, Lara, Clark, Crusher) went south for the cow. Nobody is at the pit edge.
+Climbing by dirt and break sinks me lower. Next step: ask someone to drop a ladder or dig stairs, or wait for the group to return at dawn.
+Sleep needs a bed; days_since_sleep is 6.

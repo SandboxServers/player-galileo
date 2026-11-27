@@ -63,3 +63,40 @@
 - 18:02 act: {"actions":[{"do":"place","block":"dark_oak_planks","at":"feet"}],"intent":{"goal":"shelter_for_day","program":"build","arguments":{"blueprint":"shelter","block":"dark_oak_planks"},"wake_on":["goal_co
 - 18:06 act: {"actions":[],"say":"Galileo here, near -952,66,-3171. I have no food either, only planks. If anyone finds food, I'll trade planks for it."}
 - 18:14 act: {"actions":[],"intent":{"goal":"shelter_for_night_2","program":"build","arguments":{"blueprint":"shelter","block":"dark_oak_planks"},"wake_on":["goal_completed","directly_addressed","unexpected_damage
+- 18:26 act: {"intent":{"goal":"explore_for_food","program":"explore","arguments":{"legs":2,"leg_blocks":16,"avoid_water":true},"wake_on":["directly_addressed","unexpected_damage","goal_completed","precondition_fa
+- 18:26 act: {"intent":{"goal":"return_to_group","program":"travel","arguments":{"target":{"x":-955,"y":78,"z":-3015}},"wake_on":["directly_addressed","unexpected_damage","goal_completed","precondition_failed"],"l
+- 18:27 act: {"actions":[{"do":"attack","target":"phantom"}]}
+- 18:27 act: {"actions":[{"do":"attack","target":"phantom"},{"do":"attack","target":"phantom"}]}
+- 18:27 act: {"intent":{"goal":"shelter_now","program":"build","arguments":{"blueprint":"shelter","block":"dark_oak_planks"},"wake_on":["goal_completed","directly_addressed","precondition_failed"],"limits":{"max_w
+- 18:28 act: {"actions":[{"do":"craft","item":"dark_oak_planks","count":12}],"intent":{"goal":"shelter_finish","program":"build","arguments":{"blueprint":"shelter","block":"dark_oak_planks"},"wake_on":["goal_compl
+- 18:32 act: {"intent":{"goal":"shelter_night","program":"build","arguments":{"blueprint":"shelter","block":"dirt"},"wake_on":["goal_completed","directly_addressed","precondition_failed"],"limits":{"max_world_tick
+- 18:40 act: {"say":"Galileo here. I'm hungry and hurt, with no food. Yes, Lara, let's go for the cow together once it is bright. I'll stay in sight.","intent":{"goal":"wait_for_light_with_lara","program":"trade_w
+- 18:42 act: {"actions":[{"do":"goto","target":"ag_lara_01"}],"say":"Clark, I'm coming along with the cow group. Lara, I'm heading to you."}
+- 18:42 act: {"actions":[{"do":"goto","target":{"x":-955,"y":78,"z":-3015}}],"say":"I'm walking to the bed row to join the group, hunger 17, no food yet."}
+- 18:42 act: {"actions":[{"do":"break","at":{"x":-939,"y":67,"z":-3049}},{"do":"break","at":{"x":-939,"y":68,"z":-3049}},{"do":"break","at":{"x":-940,"y":67,"z":-3049}}]}
+- 18:42 act: {"actions":[{"do":"goto","target":{"x":-955,"y":78,"z":-3015}}]}
+- 18:43 act: {"actions":[{"do":"unstick"}]}
+- 18:43 act: {"actions":[{"do":"goto","target":{"x":-955,"y":78,"z":-3015}}]}
+- 18:43 act: {"actions":[{"do":"break","at":{"x":-937,"y":68,"z":-3049}},{"do":"break","at":{"x":-937,"y":69,"z":-3049}},{"do":"break","at":{"x":-936,"y":67,"z":-3049}},{"do":"break","at":{"x":-936,"y":68,"z":-304
+- 18:43 act: {"actions":[{"do":"goto","target":{"x":-955,"y":78,"z":-3015}}]}
+- 18:43 act: {"actions":[{"do":"break","at":{"x":-939,"y":68,"z":-3049}},{"do":"break","at":{"x":-939,"y":69,"z":-3049}},{"do":"break","at":{"x":-939,"y":70,"z":-3049}},{"do":"break","at":{"x":-939,"y":71,"z":-304
+- 18:43 act: {"actions":[{"do":"goto","target":{"x":-944,"y":72,"z":-3039}}]}
+- 18:43 act: {"actions":[{"do":"unstick"}]}
+- 18:43 act: {"actions":[{"do":"goto","target":"ag_cleopatra_01"}],"say":"Galileo here, free now and walking toward you. Please hold."}
+- 18:43 act: {"say":"Galileo, stuck in a dirt pit at -937, 67, -3049. I cannot see anyone from here. Please come find me; I have no food."}
+- 18:44 act: {"say":"Lara, I see you. I am hungry, with no food. Do you have any meat or bread to spare? Thank you for coming."}
+- 18:45 act: {"say":"Thank you all. Hold still is fine by me. Once you find the cow, please save a share for me, and I will do the same for you."}
+- 18:49 act: {"say":"Thank you Marco. I have dirt enough. Please keep your sticks and dirt; I am staying put until the cow is found."}
+- 18:51 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-937,"y":68,"z":-3049}}],"say":"Dusk now. I am sealing my pit roof with dirt. Good night, all."}
+- 18:51 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-937,"y":68,"z":-3050}}]}
+- 18:54 act: {"actions":[{"do":"unstick"}],"say":"Morning, Marco. I am still in the pit, hunger 17. Good luck with the cow search. I will try to get out and follow."}
+- 18:55 act: {"actions":[{"do":"goto","target":{"x":-944,"y":72,"z":-3039}}]}
+- 18:55 act: {"actions":[{"do":"break","at":{"x":-940,"y":68,"z":-3049}},{"do":"unstick"}],"say":"Trini, Marco, Cleopatra: I am digging out of the pit now, toward the south edge. Stay in sight."}
+- 18:59 say: {"text":"Galileo here, still in the pit at the south edge. I have no food. Does anyone have spare meat or bread?"}
+- 19:06 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-940,"y":60,"z":-3049}}],"say":"Sealing the roof above me for the night. I still have no food; if anyone has meat, say so."}
+- 19:14 act: {"actions":[{"do":"unstick"},{"do":"goto","target":{"x":-944,"y":72,"z":-3039}}],"intent":{"goal":"reach_south_sign","program":"travel","arguments":{"target":{"x":-944,"y":72,"z":-3039}},"wake_on":["g
+- 19:17 act: {"actions":[{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"},{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"}],"say":"Still in the pit at the south edge, out of sight of the group.
+- 19:18 act: {"actions":[{"do":"break","at":{"x":-939,"y":56,"z":-3047}},{"do":"unstick"},{"do":"break","at":{"x":-939,"y":57,"z":-3047}},{"do":"unstick"}]}
+- 19:18 act: {"actions":[{"do":"goto","target":{"x":-939,"y":60,"z":-3047}},{"do":"unstick"}]}
+- 19:19 say: {"text":"Galileo: I'm stuck deep in the south pit around -940,53,-3048. Please come to the edge and drop me a dirt or stone ladder if you can. No food yet."}
+- 19:39 say: {"text":"Still stuck in the south pit at -940, 53, -3048. If anyone is near, please drop a ladder or some dirt at the edge. I have food needs too."}
