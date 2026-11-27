@@ -108,3 +108,6 @@
 - 20:30 waking 127: status and wait work. In the south pit at -940,53,-3048, night, health 4.7 steady, hunger 17, no food, not enclosed. Said my need aloud; nobody near. Waiting for dawn and for the group.
 - Dawn, still in the pit at -940,53,-3048; no one has come, no events. I have no pickaxe in the pack, only two wooden swords, so I cannot dig stone up. Waiting for a ladder or passer-by; keep saying my need."}
 - 20:42 act: {"say":"Still in the south pit, no food. Waiting for the group or a ladder.","intent":{"goal":"wait_for_help","program":"rest","arguments":{},"wake_on":["directly_addressed","unexpected_damage"],"limi
+- 20:59 act: {"say":"Still here in the south pit, no food, hunger 17. Anyone near, please tell me where you are."}
+- 20:59 act: {"actions":[{"do":"place","block":"cobblestone","at":{"x":-940,"y":56,"z":-3047}}]}
+- Waking 129, dusk day 1173: status and wait worked once. Still in the south pit at -940,54,-3047, health 4.67 steady, hunger 17, no food, nobody in sight. Said my need aloud. Placed a cobblestone overhead; still not fully enclosed. Then wait returned "Error POSTing to endpoint" twice. Wrote handoff.md. Next: retry wait with interests, then keep calling for help.
