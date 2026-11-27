@@ -1,1 +1,14 @@
 # Journal
+- 23:27 act: {"actions":[{"do":"unstick"}],"say":"Still hungry and stuck in this tunnel. Trying to get out toward the tables."}
+- 23:27 act: {"actions":[{"do":"goto","target":{"x":-941,"y":54,"z":-3048}}]}
+- 23:27 act: {"actions":[{"do":"goto","target":{"x":-955,"y":78,"z":-3015}}],"say":"Climbing out toward the tables now."}
+- 23:28 act: {"actions":[{"do":"break","at":{"x":-941,"y":53,"z":-3032}},{"do":"break","at":{"x":-941,"y":54,"z":-3032}}]}
+- 23:28 act: {"actions":[{"do":"goto","target":{"x":-955,"y":78,"z":-3015}}]}
+- 23:28 act: {"actions":[{"do":"break","at":{"x":-942,"y":53,"z":-3031}},{"do":"break","at":{"x":-942,"y":54,"z":-3031}},{"do":"goto","target":{"x":-942,"y":53,"z":-3031}}]}
+- 23:28 act: {"actions":[{"do":"goto","target":{"x":-941,"y":53,"z":-3033}}]}
+- 23:29 act: {"actions":[{"do":"goto","target":{"x":-955,"y":78,"z":-3015}}]}
+- 23:29 act: {"actions":[{"do":"note","text":"Stuck in stone tunnel near -941,53,-3032. Goto to tables fails as way blocked. Hunger 16, no food. Waiting for help."}],"say":"I am stuck in this stone tunnel near -94
+- 23:33 act: {"actions":[{"do":"break","at":{"x":-941,"y":53,"z":-3031}},{"do":"break","at":{"x":-941,"y":54,"z":-3031}},{"do":"goto","target":{"x":-941,"y":53,"z":-3031}}]}
+- 23:33 act: {"actions":[{"do":"break","at":{"x":-941,"y":53,"z":-3030}},{"do":"break","at":{"x":-941,"y":54,"z":-3030}},{"do":"goto","target":{"x":-941,"y":53,"z":-3030}}]}
+- 23:33 act: {"actions":[{"do":"goto","target":{"x":-955,"y":78,"z":-3015}}]}
+- 23:33 act: {"actions":[{"do":"note","text":"At -941,54,-3031 in stone tunnel, perched, drop east. Hunger 16, health 4.67. Goto to tables says no path. Digging south one cell at a time is slow. Waiting for help."
