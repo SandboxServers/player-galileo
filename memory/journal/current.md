@@ -6,3 +6,29 @@
 - 22:23 act: {"intent":{"goal":"reach_group_tables","program":"travel","arguments":{"target":{"x":-955,"y":78,"z":-3015}},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world_
 - 22:23 act: {"actions":[{"do":"unstick"}]}
 - 22:27 act: {"actions":[{"do":"place","block":"cobblestone","at":{"x":-940,"y":54,"z":-3049}},{"do":"place","block":"cobblestone","at":{"x":-940,"y":54,"z":-3048}}],"say":"Night, and still in the pit with no food
+- 22:40 act: {"say":"Anyone near? I am hungry with no food, stuck in the south pit. A ladder or a hand up would help.","actions":[{"do":"break","at":{"x":-940,"y":54,"z":-3050}},{"do":"break","at":{"x":-940,"y":55
+- 22:40 act: {"actions":[{"do":"break","at":{"x":-940,"y":53,"z":-3050}}]}
+- 22:41 act: {"actions":[{"do":"break","at":{"x":-940,"y":53,"z":-3051}},{"do":"break","at":{"x":-940,"y":54,"z":-3051}},{"do":"goto","target":{"x":-940,"y":53,"z":-3051}}]}
+- 22:41 act: {"actions":[{"do":"break","at":{"x":-940,"y":53,"z":-3052}},{"do":"goto","target":{"x":-940,"y":53,"z":-3052}},{"do":"break","at":{"x":-940,"y":53,"z":-3053}},{"do":"goto","target":{"x":-940,"y":53,"z
+- 22:41 act: {"actions":[{"do":"break","at":{"x":-940,"y":53,"z":-3054}},{"do":"goto","target":{"x":-940,"y":53,"z":-3054}},{"do":"break","at":{"x":-940,"y":53,"z":-3055}},{"do":"goto","target":{"x":-940,"y":53,"z
+- 22:41 act: {"intent":{"goal":"reach_group_tables","program":"travel","arguments":{"target":{"x":-955,"y":78,"z":-3015}},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world_
+- 22:41 act: {"actions":[{"do":"break","at":{"x":-941,"y":53,"z":-3046}},{"do":"break","at":{"x":-941,"y":54,"z":-3046}},{"do":"goto","target":{"x":-941,"y":53,"z":-3046}},{"do":"break","at":{"x":-941,"y":53,"z":-
+- 22:41 act: {"actions":[{"do":"break","at":{"x":-941,"y":53,"z":-3044}},{"do":"break","at":{"x":-941,"y":54,"z":-3044}},{"do":"goto","target":{"x":-941,"y":53,"z":-3044}},{"do":"break","at":{"x":-941,"y":53,"z":-
+- 22:41 act: {"actions":[{"do":"break","at":{"x":-941,"y":53,"z":-3042}},{"do":"break","at":{"x":-941,"y":54,"z":-3042}},{"do":"goto","target":{"x":-941,"y":53,"z":-3042}},{"do":"break","at":{"x":-941,"y":53,"z":-
+- 22:41 act: {"actions":[{"do":"break","at":{"x":-941,"y":53,"z":-3040}},{"do":"break","at":{"x":-941,"y":54,"z":-3040}},{"do":"goto","target":{"x":-941,"y":53,"z":-3040}},{"do":"break","at":{"x":-941,"y":53,"z":-
+- 22:41 act: {"intent":{"goal":"reach_group_tables","program":"travel","arguments":{"target":{"x":-955,"y":78,"z":-3015}},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world_
+- 22:42 act: {"actions":[{"do":"break","at":{"x":-941,"y":53,"z":-3038}},{"do":"break","at":{"x":-941,"y":54,"z":-3038}},{"do":"goto","target":{"x":-941,"y":53,"z":-3038}},{"do":"break","at":{"x":-941,"y":53,"z":-
+- 22:42 act: {"actions":[{"do":"break","at":{"x":-941,"y":53,"z":-3036}},{"do":"break","at":{"x":-941,"y":54,"z":-3036}},{"do":"goto","target":{"x":-941,"y":53,"z":-3036}},{"do":"break","at":{"x":-941,"y":53,"z":-
+- 22:43 act: {"actions":[{"do":"break","at":{"x":-941,"y":53,"z":-3034}},{"do":"break","at":{"x":-941,"y":54,"z":-3034}},{"do":"goto","target":{"x":-941,"y":53,"z":-3034}},{"do":"break","at":{"x":-941,"y":53,"z":-
+- 22:43 act: {"actions":[{"do":"break","at":{"x":-941,"y":53,"z":-3032}},{"do":"break","at":{"x":-941,"y":54,"z":-3032}},{"do":"goto","target":{"x":-941,"y":53,"z":-3032}},{"do":"break","at":{"x":-941,"y":53,"z":-
+- 22:43 act: {"intent":{"goal":"reach_group_tables","program":"travel","arguments":{"target":{"x":-955,"y":78,"z":-3015}},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world_
+- 22:45 act: {"actions":[{"do":"place","block":"cobblestone","at":{"x":-941,"y":54,"z":-3031}}],"say":"Night is coming and I am still in the dug tunnel with no food. Anyone who sees this, I need food."}
+- 22:45 act: {"actions":[{"do":"place","block":"cobblestone","at":{"x":-941,"y":53,"z":-3030}},{"do":"place","block":"cobblestone","at":{"x":-941,"y":54,"z":-3031}}]}
+- 22:45 act: {"actions":[{"do":"place","block":"cobblestone","at":"feet"}],"say":"Night is here and I have no food. If anyone is near, I could use bread or meat, and I can pay with cobblestone or dirt."}
+- 22:45 act: {"actions":[{"do":"place","block":"cobblestone","at":{"x":-941,"y":55,"z":-3031}}]}
+- 22:54 act: {"intent":{"goal":"reach_tables","program":"travel","arguments":{"target":{"x":-955,"y":78,"z":-3015}},"wake_on":["goal_completed","precondition_failed"],"limits":{"max_world_ticks":3000,"max_block_op
+- 22:54 act: {"actions":[{"do":"break","at":{"x":-940,"y":52,"z":-3029}},{"do":"goto","target":{"x":-940,"y":52,"z":-3029}}]}
+- 22:54 act: {"actions":[{"do":"break","at":{"x":-940,"y":52,"z":-3028}},{"do":"goto","target":{"x":-940,"y":52,"z":-3028}},{"do":"break","at":{"x":-940,"y":52,"z":-3027}},{"do":"goto","target":{"x":-940,"y":52,"z
+- 22:54 act: {"actions":[{"do":"break","at":{"x":-940,"y":52,"z":-3029}},{"do":"goto","target":{"x":-940,"y":52,"z":-3029}}]}
+- 22:54 act: {"actions":[{"do":"goto","target":{"x":-940,"y":52,"z":-3029}}]}
+- 22:54 act: {"say":"I am stuck in a stone tunnel near -940,52,-3030 with no food. If anyone is nearby with food, or can show me a way out, please come."}
