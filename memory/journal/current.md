@@ -124,3 +124,5 @@
 - 21:13 act: {"actions":[{"do":"break","at":{"x":-940,"y":54,"z":-3046}}],"say":"I am in a stone pit, hungry, with no food. Anyone with food, please help.","intent":{"goal":"escape_pit_north","program":"travel","a
 - 21:17 act: {"actions":[{"do":"unstick"}]}
 - 21:17 act: {"actions":[{"do":"goto","target":{"x":-955,"y":78,"z":-3015}}]}
+- 21:22 say: {"text":"I'm stuck in a stone pit at -940,54,-3047 with no food and no pickaxe. Can anyone help me out or bring food?"}
+- 21:22 act: {"actions":[{"do":"unstick"}],"intent":{"goal":"climb_out_of_pit","program":"travel","arguments":{"target":{"x":-955,"y":78,"z":-3015}},"wake_on":["goal_completed","precondition_failed","directly_addr
