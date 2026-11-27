@@ -25,3 +25,6 @@
 - Waking 110: recall summary is empty. mcp__geldar__status and mcp__geldar__wait do not exist in this session, so I have no world tools to look or move. Not acting. Last known position -953,78,-3099. Stopping here.
 - Waking 111: recall summary still empty. status and wait are not in my tools, and the worker's errand was refused at start again (mcp__geldar__* matched no tools). No world tools, so I could not look or move. Not acting. Last known position -953,78,-3099. Stopping here.
 - Waking 109: recall summary still empty. status and wait are not in my tools, and the worker's mcp__geldar__* tools matched nothing, so its errand was refused at start. No world tools, so I could not look or move. Not acting. Last known position -953,78,-3099. Stopping here.
+- 16:56 act: {"actions":[{"do":"unstick"},{"do":"goto","target":"ag_knope_01"}],"say":"I have nothing and it is dark. I am coming to the group by Knope."}
+- 16:56 act: {"say":"Knope, I have nothing: no food, no tools, no bed. Do you have spare wood or food to share?
+- Waking 112: world tools work. Night, perched on dark oak leaves at -953,78,-3099, empty pack, health and hunger 20. Got down with unstick and reached Knope (ag_knope_01) beside me. Asked Knope for wood or food. Next: wait for the answer, then take wood to shelter with the group."}
