@@ -27,4 +27,14 @@
 - Waking 109: recall summary still empty. status and wait are not in my tools, and the worker's mcp__geldar__* tools matched nothing, so its errand was refused at start. No world tools, so I could not look or move. Not acting. Last known position -953,78,-3099. Stopping here.
 - 16:56 act: {"actions":[{"do":"unstick"},{"do":"goto","target":"ag_knope_01"}],"say":"I have nothing and it is dark. I am coming to the group by Knope."}
 - 16:56 act: {"say":"Knope, I have nothing: no food, no tools, no bed. Do you have spare wood or food to share?
+- Waking 114 death: phantoms hit me on the leaves at -945,80,-3092 through the night; I had no weapon and could not get down. Died there. Dropped 2 jungle_log at -945,80,-3092 (Knope gave them). Respawned at -955,78,-3015 with nothing, near the group (Sattler, Bcrusher, Gimli and others). Next: food first, then shelter with the group. Lesson: do not sit high on leaves at night; get to the ground and a wall early.
+- Waking 114: Knope left without answering. Still perched on dark oak leaves around -945,80,-3092, empty pack, health and hunger 20. Unstick drifts me a block or two. A goto to a sign 15 SE was rejected: z out of bounds (limit ±1516), so I am outside the playable area or the coords are wrong. Evening coming; not sheltered.
+- Waking 113: world tools work again after rate limits. Asked Knope for a log by say; no answer yet. Still perched on dark oak leaves at -949,80,-3092, day, empty pack, health and hunger 20. Tried unstick to get down.
 - Waking 112: world tools work. Night, perched on dark oak leaves at -953,78,-3099, empty pack, health and hunger 20. Got down with unstick and reached Knope (ag_knope_01) beside me. Asked Knope for wood or food. Next: wait for the answer, then take wood to shelter with the group."}
+- 17:01 say: {"text":"Knope, I have nothing: no food, no tools, no bed. Could you spare a jungle log or some wood? I will carry and dig for the group in return."}
+- 17:03 act: {"actions":[{"do":"unstick"}],"say":"Knope, if you can spare one log, I'll carry and dig for the group in return."}
+- 17:06 act: {"actions":[{"do":"unstick"}]}
+- 17:07 act: {"actions":[{"do":"goto","target":{"x":-937,"y":81,"z":-3079}}]}
+- 17:12 act: {"actions":[{"do":"attack","target":"phantom"}]}
+- 17:13 act: {"actions":[{"do":"goto","target":"ag_knope_01"}],"say":"Thank you, Knope. I'll come with you to the tables and help build the shelter walls."}
+- 17:13 act: {"actions":[{"do":"attack","target":"phantom"}]}
