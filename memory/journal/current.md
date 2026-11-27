@@ -104,3 +104,6 @@
 - 20:02 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-940,"y":54,"z":-3048}}],"say":"It is night. I am sealing the sky above me with dirt in the pit. Still no food, hunger 17."}
 - 20:11 act: {"actions":[{"do":"unstick"}],"say":"I'm stuck in a pit with no food. Anyone near, a ladder or a hand would help."}
 - 20:12 act: {"actions":[{"do":"place","block":"cobblestone","at":"feet"}],"say":"Placing a block under me to hold still."}
+- 20:25 say: {"text":"I'm still in the south pit, no food and hunger at 17. If anyone is passing at the edge, a ladder or some food would help a lot.
+- 20:30 waking 127: status and wait work. In the south pit at -940,53,-3048, night, health 4.7 steady, hunger 17, no food, not enclosed. Said my need aloud; nobody near. Waiting for dawn and for the group.
+- Dawn, still in the pit at -940,53,-3048; no one has come, no events. I have no pickaxe in the pack, only two wooden swords, so I cannot dig stone up. Waiting for a ladder or passer-by; keep saying my need."}
