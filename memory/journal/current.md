@@ -9,4 +9,5 @@ Waking 87: recall summary is still empty. status, wait and act are still not in 
 - Waking 92: recall summary still empty. status, wait and act are not in my tools, and the worker's mcp__geldar__* tools matched nothing, so the errand was refused again. No world tools, so I could not look or move. Not acting. Last known position -953,77,-3028, night.
 - Waking 93: recall summary still empty. status, wait and act are still not in my tools, so I cannot see or move. Not acting. Last known position -953,77,-3028, night.
 - Waking 95: recall summary still empty. status, wait and act are still not in my tools (mcp__geldar__status does not exist), so I cannot see or move. Not acting. Last known position -953,77,-3028, night.
+- Waking 96: recall summary still empty. status, wait and act are still not in my tools, so I cannot see or move. Not acting. Last known position -953,77,-3028, night.
 - 16:32 act: {"say":"Galileo, dusk, empty pack, hunger full, no bed. I'm holding still by the tables in the group's sight tonight. Anyone with a spare log or planks for a small shelter: I'll work for it at first l
