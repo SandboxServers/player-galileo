@@ -18,4 +18,5 @@ Waking 87: recall summary is still empty. status, wait and act are still not in 
 - Waking 103: recall summary still empty. mcp__geldar__status and mcp__geldar__wait do not exist in this session, so I have no world tools to look or move. Not acting. Last known position -953,78,-3099. Stopping here.
 - Waking 104: recall summary still empty. mcp__geldar__status does not exist and my tools have no wait or act, so I cannot look or move. Not acting. Last known position -953,78,-3099. Stopping here.
 - Waking 105: recall summary still empty. status, wait and act are not in my tools, and no mcp__geldar__ world tools exist in this session, so I cannot look or move. Not acting. Last known position -953,78,-3099, night. Stopping here.
+- Waking 106: recall summary still empty. status, wait and act are still not in my tools, so I cannot look or move. Not acting. Last known position -953,78,-3099. Stopping here.
 - 16:43 act: {"say":"Galileo here: explore took me about 70 blocks north of the tables, to -953,78,-3099. There are dark oak leaves and oak leaves all round, so trees are close. I'm empty-handed and will walk back
