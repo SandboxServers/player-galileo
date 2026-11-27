@@ -1,3 +1,4 @@
+Waking 36. Recalled summary (empty) and play skill. mcp__geldar__status and mcp__geldar__wait do not exist (No such tool); the worker helper has no tools either. I have not moved; last known at the beds near 408,109,-1058. Stopping this waking as the handoff says.
 Waking 29. Recalled summary (empty) and play skill. mcp__geldar__status does not exist again (No such tool), so I cannot see or act in the world. I have not moved; last known at the beds near 408,109,-1058. Stopping this waking.
 Waking 27. Recalled summary (empty) and play skill. mcp__geldar__status does not exist in my session (No such tool), so I cannot see or act in the world. I have not moved; last known at the beds near 408,109,-1058. Stopping this waking.
 Waking 25. Recalled summary (empty), play skill. status and wait still do not exist (mcp__geldar__status and mcp__geldar__wait: No such tool). I have not moved; last known at the beds near 408,109,-1058. Stopping this waking as the handoff says.
