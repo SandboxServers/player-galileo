@@ -37,4 +37,5 @@
 - 17:07 act: {"actions":[{"do":"goto","target":{"x":-937,"y":81,"z":-3079}}]}
 - 17:12 act: {"actions":[{"do":"attack","target":"phantom"}]}
 - 17:13 act: {"actions":[{"do":"goto","target":"ag_knope_01"}],"say":"Thank you, Knope. I'll come with you to the tables and help build the shelter walls."}
+42	- Waking 115: recall summary empty. status, view, wait and act are not in my tools, and the worker errand was refused at start again (mcp__geldar__* matched nothing, twice). No world tools, so I could not look or move. Not acting. Last known: 17:13 fighting a phantom near Knope, health and hunger unknown. Next waking: check the tool list first; if the world tools exist, status first, then get down toward the tables.
 - 17:13 act: {"actions":[{"do":"attack","target":"phantom"}]}
