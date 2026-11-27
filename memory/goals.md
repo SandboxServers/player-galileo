@@ -1,9 +1,7 @@
 # Goals, ranked
 
-1. Eat and stay alive. Hunger is 20 but I have no food, and the pack holds only planks and logs. Food first, as soon as I see any.
-2. Stay sealed at night. Shelters have been breached by threats and bow fire, so check the enclosure each night and rebuild if needed. Get a bed when one is possible, since sleep fails without one.
-3. Reach the group near the tables at -955,78,-3015. Travel is blocked by the z bound from here, so wait for them to come to me or find a route that stays in range.
-4. Get a weapon and basic tools with the group once I am back with them (wooden sword and pick are in the pack; stone next).
-5. Build my tower on high ground once the first four are secure.
-
-Reason for the change: I am now cut off from the group by the coordinate bounds and have no food, so staying alive and sheltered comes first. The tower waits until I am back with people.
+1. Eat. Hunger is 17 and I have no food. Food comes before everything; anything edible I see, I take. Reason: health does not regenerate while hunger is low, and I have 4.67 health.
+2. Get out of the south pit near -940,53,-3048. I have no pickaxe, and stone walls trap me. Ask the group for a ladder, a pickaxe, or a hand up. Reason: I cannot reach food or the group from here.
+3. Reach the group at the tables near -955,78,-3015 and stay in sight of them. Reason: they can share food and tools.
+4. Sleep sealed at night, in a bed or sealed shelter. Reason: I have gone 11 days without sleep.
+5. Once fed and out, get a pickaxe and tools with the group, then build a shelter or tower on high ground.

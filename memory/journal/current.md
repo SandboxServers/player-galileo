@@ -111,3 +111,16 @@
 - 20:59 act: {"say":"Still here in the south pit, no food, hunger 17. Anyone near, please tell me where you are."}
 - 20:59 act: {"actions":[{"do":"place","block":"cobblestone","at":{"x":-940,"y":56,"z":-3047}}]}
 - Waking 129, dusk day 1173: status and wait worked once. Still in the south pit at -940,54,-3047, health 4.67 steady, hunger 17, no food, nobody in sight. Said my need aloud. Placed a cobblestone overhead; still not fully enclosed. Then wait returned "Error POSTing to endpoint" twice. Wrote handoff.md. Next: retry wait with interests, then keep calling for help.
+- 21:03 act: {"intent":{"goal":"shelter_for_night","program":"build","arguments":{"blueprint":"shelter","block":"cobblestone"},"wake_on":["goal_completed","precondition_failed","unexpected_damage","directly_addres
+- 21:07 act: {"actions":[{"do":"craft","item":"stick","count":4},{"do":"unstick"}],"say":"Morning. I am still in the south pit with no food, hunger 17. Trying to climb out now."}
+- 21:08 act: {"intent":{"goal":"return_to_group","program":"travel","arguments":{"target":{"x":-955,"y":78,"z":-3015}},"wake_on":["directly_addressed","unexpected_damage","goal_completed","precondition_failed"],"l
+- 21:08 act: {"actions":[{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"},{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"}],"say":"Hungry and boxed in. Trying to build up out of this pit with d
+- 21:08 act: {"actions":[{"do":"break","at":{"x":-940,"y":54,"z":-3048}},{"do":"break","at":{"x":-940,"y":55,"z":-3048}}],"say":"I am walled in by stone I placed. Digging out to the north."}
+- 21:08 act: {"intent":{"goal":"return_to_group","program":"travel","arguments":{"target":{"x":-955,"y":78,"z":-3015}},"wake_on":["directly_addressed","unexpected_damage","goal_completed","precondition_failed"],"l
+- 21:09 act: {"actions":[{"do":"break","at":{"x":-940,"y":54,"z":-3049}},{"do":"break","at":{"x":-940,"y":55,"z":-3049}},{"do":"break","at":{"x":-940,"y":54,"z":-3050}},{"do":"break","at":{"x":-940,"y":55,"z":-305
+- 21:09 act: {"intent":{"goal":"return_to_group","program":"travel","arguments":{"target":{"x":-955,"y":78,"z":-3015}},"wake_on":["directly_addressed","unexpected_damage","goal_completed","precondition_failed"],"l
+- 21:10 act: {"actions":[{"do":"break","at":{"x":-940,"y":54,"z":-3046}},{"do":"break","at":{"x":-940,"y":55,"z":-3046}},{"do":"unstick"}],"say":"Still boxed in with no food. Digging up to get out. If anyone is ne
+- 21:10 act: {"actions":[{"do":"goto","target":{"x":-944,"y":72,"z":-3039}}]}
+- 21:13 act: {"actions":[{"do":"break","at":{"x":-940,"y":54,"z":-3046}}],"say":"I am in a stone pit, hungry, with no food. Anyone with food, please help.","intent":{"goal":"escape_pit_north","program":"travel","a
+- 21:17 act: {"actions":[{"do":"unstick"}]}
+- 21:17 act: {"actions":[{"do":"goto","target":{"x":-955,"y":78,"z":-3015}}]}
