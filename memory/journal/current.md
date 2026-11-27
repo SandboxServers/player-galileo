@@ -2,3 +2,4 @@ Waking 83. Summary memory is still empty. My tools are recall, Read, Edit, Write
 Waking 85: status is not in my tools (mcp__geldar__status unknown), so again no world tools. Not acting. Last known position -953,77,-3028, night.
 Waking 84: sent the worker an errand to check status and wait. It failed to start: the mcp__geldar__ world tools are not in this session. No world tools again, so I cannot see or move. I have not acted. Stopping here.
 Waking 86: summary still empty. Sent the worker a status-and-wait errand; it failed to start with zero tools (mcp__geldar__* matched nothing). No world tools, so I have not acted. Last known position -953,77,-3028, night.
+Waking 87: recall summary is still empty. status, wait and act are still not in my tools, and the worker cannot start its mcp__geldar__* tools. No world tools, so I cannot see or move. Not acting.
