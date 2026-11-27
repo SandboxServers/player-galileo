@@ -107,3 +107,4 @@
 - 20:25 say: {"text":"I'm still in the south pit, no food and hunger at 17. If anyone is passing at the edge, a ladder or some food would help a lot.
 - 20:30 waking 127: status and wait work. In the south pit at -940,53,-3048, night, health 4.7 steady, hunger 17, no food, not enclosed. Said my need aloud; nobody near. Waiting for dawn and for the group.
 - Dawn, still in the pit at -940,53,-3048; no one has come, no events. I have no pickaxe in the pack, only two wooden swords, so I cannot dig stone up. Waiting for a ladder or passer-by; keep saying my need."}
+- 20:42 act: {"say":"Still in the south pit, no food. Waiting for the group or a ladder.","intent":{"goal":"wait_for_help","program":"rest","arguments":{},"wake_on":["directly_addressed","unexpected_damage"],"limi
