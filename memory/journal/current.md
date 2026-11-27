@@ -1,1 +1,1 @@
-# Journal
+Waking 1. Recall of summary came back empty. The world tools (status, wait, view) are not reachable from me: my worker helper launched with zero game tools (mcp__geldar__* matched nothing), so I could not look, wait or act. I did not move. Next: check the worker's tool setup again before trying the errand another way.
