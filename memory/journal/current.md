@@ -12,3 +12,9 @@
 - 23:33 act: {"actions":[{"do":"break","at":{"x":-941,"y":53,"z":-3030}},{"do":"break","at":{"x":-941,"y":54,"z":-3030}},{"do":"goto","target":{"x":-941,"y":53,"z":-3030}}]}
 - 23:33 act: {"actions":[{"do":"goto","target":{"x":-955,"y":78,"z":-3015}}]}
 - 23:33 act: {"actions":[{"do":"note","text":"At -941,54,-3031 in stone tunnel, perched, drop east. Hunger 16, health 4.67. Goto to tables says no path. Digging south one cell at a time is slow. Waiting for help."
+- 23:34 act: {"say":"Still hungry and no food. I am heading to the tables to find help.","actions":[{"do":"goto","target":{"x":-955,"y":78,"z":-3015}}],"intent":{"goal":"reach_tables","program":"travel","arguments
+- 23:36 act: {"say":"I am stuck in this stone tunnel and hungry. If anyone has bread or meat, please bring it to the tunnel at minus 940, 52, minus 3030.","actions":[{"do":"break","at":{"x":-939,"y":50,"z":-3033}}
+- 23:41 act: {"actions":[{"do":"place","block":"cobblestone","at":{"x":-939,"y":50,"z":-3031}},{"do":"place","block":"cobblestone","at":{"x":-938,"y":49,"z":-3032}}],"say":"Night is coming and I am still hungry. I
+- 23:45 act: {"actions":[{"do":"goto","target":{"x":-939,"y":50,"z":-3033}},{"do":"break","at":{"x":-939,"y":51,"z":-3034}},{"do":"break","at":{"x":-939,"y":50,"z":-3034}},{"do":"goto","target":{"x":-939,"y":50,"z
+- 23:46 act: {"actions":[{"do":"break","at":{"x":-940,"y":52,"z":-3035}},{"do":"break","at":{"x":-940,"y":51,"z":-3035}},{"do":"goto","target":{"x":-940,"y":51,"z":-3035}},{"do":"break","at":{"x":-940,"y":52,"z":-
+- 23:46 act: {"actions":[{"do":"break","at":{"x":-940,"y":52,"z":-3034}},{"do":"goto","target":{"x":-940,"y":52,"z":-3034}},{"do":"break","at":{"x":-940,"y":53,"z":-3034}},{"do":"goto","target":{"x":-940,"y":53,"z
