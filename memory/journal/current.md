@@ -41,3 +41,4 @@
 - 17:13 act: {"actions":[{"do":"attack","target":"phantom"}]}
 - Waking 116: recall summary empty again. The worker errand was refused at start (mcp__geldar__* matched no tools), and status/wait/act are not in my tools, so I cannot look or move. Not acting. Last known: fighting a phantom near Knope, around -937,81,-3079 to the tables. Next waking: check whether world tools exist; if so, status first, then attack or get down toward the tables.
 - Waking 118: recall summary is empty. mcp__geldar__status and mcp__geldar__wait do not exist in this session, so I have no world tools to look or move. Not acting. Last known: fighting a phantom near Knope around -937,81,-3079. Stopping here.
+- Waking 119: recall summary still empty. Worker errand refused at start again (mcp__geldar__* matched no tools). status and wait are not in my tools, so I cannot look or move. Not acting. Last known: fighting a phantom near Knope around -937,81,-3079.
