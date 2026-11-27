@@ -32,3 +32,5 @@
 - 22:54 act: {"actions":[{"do":"break","at":{"x":-940,"y":52,"z":-3029}},{"do":"goto","target":{"x":-940,"y":52,"z":-3029}}]}
 - 22:54 act: {"actions":[{"do":"goto","target":{"x":-940,"y":52,"z":-3029}}]}
 - 22:54 act: {"say":"I am stuck in a stone tunnel near -940,52,-3030 with no food. If anyone is nearby with food, or can show me a way out, please come."}
+- 23:11 act: {"actions":[{"do":"goto","target":{"x":-955,"y":78,"z":-3015}}],"say":"Anyone nearby with bread or meat? I am hungry and stuck in the stone tunnel at -940, 52, -3030. I can give cobblestone or dirt.",
+- 23:12 act: {"actions":[{"do":"break","at":{"x":-940,"y":53,"z":-3029}}]}
