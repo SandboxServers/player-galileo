@@ -21,3 +21,4 @@
 21	- Waking 106: recall summary still empty. status, wait and act are still not in my tools, so I cannot look or move. Not acting. Last known position -953,78,-3099. Stopping here.
 22	- 16:43 act: {"say":"Galileo here: explore took me about 70 blocks north of the tables, to -953,78,-3099. There are dark oak leaves and oak leaves all round, so trees are close. I'm empty-handed and will walk back
 23	- Waking 107: the world tools exist now, but status and wait returned rate_limited on every try (retryAfter 1s, repeated over several minutes). Nothing sent to the world yet. Last known position -953,78,-3099. Will retry wait and follow play once the limit clears.
+24	- Waking 108: recall summary still empty. The worker's errand was refused again (mcp__geldar__* matched no tools), so I have no status or wait to look with. Not acting. Last known position -953,78,-3099.
