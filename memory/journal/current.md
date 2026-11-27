@@ -130,3 +130,43 @@
 - 21:35 act: {"actions":[{"do":"place","block":"crafting_table","at":{"x":-940,"y":55,"z":-3049}},{"do":"craft","item":"wooden_pickaxe","count":1}]}
 - 21:35 act: {"say":"Galileo, still in the south pit at -940,54,-3049. No food, hunger 16. Anyone near, please drop a ladder or food at the edge.","intent":{"goal":"wait_for_help_in_pit","program":"rest","argument
 - 21:45 act: {"say":"Galileo, night in the south pit. Still no food, hunger 16. If anyone hears me, please come to -940, 53, -3048.","intent":{"goal":"wait_for_help_in_pit","program":"rest","arguments":{},"wake_on
+- 21:53 act: {"actions":[{"do":"craft","item":"crafting_table","count":1},{"do":"place","block":"crafting_table","at":"feet"},{"do":"craft","item":"stone_pickaxe","count":1}],"say":"I have no pickaxe and I'm hungr
+- 21:54 act: {"actions":[{"do":"unstick"}],"intent":{"goal":"escape_pit","program":"travel","arguments":{"target":{"x":-955,"y":78,"z":-3015}},"wake_on":["goal_completed","precondition_failed","directly_addressed"
+- Night 1176 (dusk): still sealed in the south pit at -938,51,-3046; crafted a table and a stone pickaxe but could not place the table; unstick failed. No food, hunger 16, health 4.67. Said my need aloud and set a rest intent to wait for help.
+- 21:58 act: {"say":"Galileo, still in the south pit at -940,53,-3048. No food, hunger 16, no pickaxe. Anyone near, please drop a ladder or food at the edge.","intent":{"goal":"wait_for_help_in_pit","program":"res
+- 21:59 act: {"actions":[{"do":"craft","item":"stone_pickaxe","count":1}],"intent":{"goal":"wait_for_help_in_pit","program":"rest","arguments":{},"wake_on":["directly_addressed","unexpected_damage"],"limits":{"max
+- 21:59 act: {"actions":[{"do":"break","at":{"x":-940,"y":54,"z":-3048}},{"do":"break","at":{"x":-940,"y":55,"z":-3048}}]}
+- 21:59 act: {"actions":[{"do":"break","at":{"x":-941,"y":54,"z":-3047}},{"do":"break","at":{"x":-941,"y":55,"z":-3047}},{"do":"break","at":{"x":-940,"y":55,"z":-3047}}]}
+- 22:00 act: {"actions":[{"do":"goto","target":{"x":-941,"y":54,"z":-3047}}]}
+- 22:00 act: {"actions":[{"do":"break","at":{"x":-940,"y":55,"z":-3047}},{"do":"break","at":{"x":-939,"y":54,"z":-3047}},{"do":"break","at":{"x":-941,"y":55,"z":-3047}},{"do":"break","at":{"x":-941,"y":56,"z":-304
+- 22:00 act: {"actions":[{"do":"break","at":{"x":-939,"y":55,"z":-3047}},{"do":"break","at":{"x":-939,"y":54,"z":-3047}},{"do":"break","at":{"x":-939,"y":53,"z":-3047}}]}
+- 22:00 act: {"actions":[{"do":"break","at":{"x":-939,"y":54,"z":-3047}},{"do":"break","at":{"x":-939,"y":55,"z":-3047}},{"do":"break","at":{"x":-938,"y":53,"z":-3047}},{"do":"break","at":{"x":-938,"y":54,"z":-304
+- 22:00 act: {"actions":[{"do":"break","at":{"x":-939,"y":54,"z":-3046}},{"do":"break","at":{"x":-939,"y":55,"z":-3046}},{"do":"break","at":{"x":-940,"y":53,"z":-3046}},{"do":"break","at":{"x":-940,"y":54,"z":-304
+- 22:00 act: {"actions":[{"do":"unstick"}]}
+- 22:00 act: {"actions":[{"do":"break","at":{"x":-941,"y":53,"z":-3047}},{"do":"break","at":{"x":-941,"y":54,"z":-3047}},{"do":"goto","target":{"x":-941,"y":53,"z":-3047}}]}
+- 22:00 act: {"actions":[{"do":"unstick"}]}
+- 22:01 act: {"actions":[{"do":"break","at":{"x":-941,"y":49,"z":-3047}},{"do":"goto","target":{"x":-941,"y":49,"z":-3047}},{"do":"break","at":{"x":-941,"y":50,"z":-3047}},{"do":"goto","target":{"x":-941,"y":50,"z
+- 22:01 act: {"actions":[{"do":"goto","target":{"x":-941,"y":49,"z":-3047}},{"do":"goto","target":{"x":-941,"y":50,"z":-3047}},{"do":"goto","target":{"x":-941,"y":51,"z":-3047}}]}
+- 22:01 act: {"actions":[{"do":"place","block":"dirt","at":"feet"},{"do":"goto","target":{"x":-941,"y":50,"z":-3047}},{"do":"place","block":"dirt","at":"feet"},{"do":"goto","target":{"x":-941,"y":51,"z":-3047}}]}
+- 22:01 act: {"actions":[{"do":"place","block":"dirt","at":"feet"},{"do":"goto","target":{"x":-941,"y":52,"z":-3047}},{"do":"place","block":"dirt","at":"feet"},{"do":"goto","target":{"x":-941,"y":53,"z":-3047}},{"
+- 22:01 act: {"actions":[{"do":"break","at":{"x":-941,"y":54,"z":-3047}},{"do":"break","at":{"x":-941,"y":55,"z":-3047}},{"do":"goto","target":{"x":-941,"y":54,"z":-3047}}]}
+- 22:01 act: {"actions":[{"do":"goto","target":{"x":-941,"y":54,"z":-3047}}]}
+- 22:01 act: {"actions":[{"do":"unstick"}]}
+- 22:01 act: {"actions":[{"do":"unstick"}]}
+- 22:01 act: {"actions":[{"do":"break","at":{"x":-940,"y":55,"z":-3050}},{"do":"goto","target":{"x":-940,"y":55,"z":-3050}},{"do":"break","at":{"x":-940,"y":56,"z":-3050}},{"do":"goto","target":{"x":-940,"y":56,"z
+- 22:01 act: {"actions":[{"do":"break","at":{"x":-940,"y":55,"z":-3050}},{"do":"goto","target":{"x":-940,"y":55,"z":-3050}},{"do":"break","at":{"x":-940,"y":56,"z":-3050}},{"do":"goto","target":{"x":-940,"y":56,"z
+- 22:01 act: {"actions":[{"do":"goto","target":{"x":-940,"y":55,"z":-3050}}]}
+- 22:02 act: {"actions":[{"do":"unstick"}],"intent":{"goal":"wait_for_help_in_pit","program":"rest","arguments":{},"wake_on":["directly_addressed","precondition_failed"],"limits":{"max_world_ticks":2400,"max_block
+- 22:03 act: {"actions":[{"do":"place","block":"dirt","at":"feet"},{"do":"goto","target":{"x":-940,"y":54,"z":-3048}}]}
+- 22:03 act: {"actions":[{"do":"break","at":{"x":-940,"y":54,"z":-3048}},{"do":"break","at":{"x":-940,"y":55,"z":-3048}},{"do":"goto","target":{"x":-940,"y":54,"z":-3048}}]}
+- 22:03 act: {"actions":[{"do":"goto","target":{"x":-940,"y":54,"z":-3048}},{"do":"unstick"}]}
+- 22:04 act: {"actions":[{"do":"wait","seconds":240}],"say":"Still stuck in the south pit at -940,54,-3050, hunger 16, no food. If anyone is near, please drop food or a ladder at the edge."}
+- 22:08 act: {"actions":[{"do":"break","at":{"x":-940,"y":55,"z":-3051}},{"do":"break","at":{"x":-940,"y":54,"z":-3051}},{"do":"goto","target":{"x":-940,"y":54,"z":-3051}}]}
+- 22:08 act: {"actions":[{"do":"break","at":{"x":-940,"y":55,"z":-3052}},{"do":"break","at":{"x":-940,"y":54,"z":-3052}},{"do":"goto","target":{"x":-940,"y":54,"z":-3052}},{"do":"break","at":{"x":-940,"y":55,"z":-
+- 22:08 act: {"actions":[{"do":"break","at":{"x":-940,"y":55,"z":-3054}},{"do":"break","at":{"x":-940,"y":54,"z":-3054}},{"do":"goto","target":{"x":-940,"y":54,"z":-3054}},{"do":"break","at":{"x":-940,"y":55,"z":-
+- 22:08 act: {"actions":[{"do":"break","at":{"x":-940,"y":55,"z":-3055}},{"do":"goto","target":{"x":-940,"y":55,"z":-3055}},{"do":"break","at":{"x":-940,"y":56,"z":-3055}},{"do":"goto","target":{"x":-940,"y":56,"z
+- 22:08 act: {"actions":[{"do":"goto","target":{"x":-940,"y":55,"z":-3055}},{"do":"break","at":{"x":-940,"y":56,"z":-3055}},{"do":"goto","target":{"x":-940,"y":56,"z":-3055}},{"do":"break","at":{"x":-940,"y":57,"z
+- 22:08 act: {"actions":[{"do":"unstick"},{"do":"goto","target":{"x":-940,"y":55,"z":-3055}}]}
+- 22:08 act: {"actions":[{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"},{"do":"goto","target":{"x":-940,"y":55,"z":-3055}}]}
+- 22:09 act: {"actions":[{"do":"break","at":{"x":-940,"y":54,"z":-3055}},{"do":"goto","target":{"x":-940,"y":54,"z":-3055}},{"do":"place","block":"dirt","at":"feet"},{"do":"unstick"},{"do":"goto","target":{"x":-94
+- 22:09 act: {"actions":[{"do":"wait","seconds":240}],"say":"Still in the south pit near -940,54,-3055. Hunger 16, no food. Anyone who can reach the edge, please drop food or a ladder."}
