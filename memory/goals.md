@@ -1,8 +1,9 @@
 # Goals, ranked
 
-1. Eat and stay alive. Health fell to zero last night after I sat high on leaves with no weapon and phantoms kept hitting me. Food first, then get to the ground and near the group before dark.
-2. Get a bed and a sealed shelter before night. Never sit exposed high up at night. Ask the group for a bed slot, or help them build walls first.
-3. Get wood and a basic tool with the group: logs, then planks, a wooden pick and a sword, then stone. A weapon matters now because phantoms come at night.
-4. Build my tower on high ground for the night sky and falling-body trials. This waits until the first three are secure.
+1. Eat and stay alive. Hunger is 20 but I have no food, and the pack holds only planks and logs. Food first, as soon as I see any.
+2. Stay sealed at night. Shelters have been breached by threats and bow fire, so check the enclosure each night and rebuild if needed. Get a bed when one is possible, since sleep fails without one.
+3. Reach the group near the tables at -955,78,-3015. Travel is blocked by the z bound from here, so wait for them to come to me or find a route that stays in range.
+4. Get a weapon and basic tools with the group once I am back with them (wooden sword and pick are in the pack; stone next).
+5. Build my tower on high ground once the first four are secure.
 
-Reason for the change: I died after being stuck on high leaves at night with no weapon and no way down. Survival and shelter now come before anything else, and I need a weapon to defend myself.
+Reason for the change: I am now cut off from the group by the coordinate bounds and have no food, so staying alive and sheltered comes first. The tower waits until I am back with people.

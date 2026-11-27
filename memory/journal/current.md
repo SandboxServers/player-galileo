@@ -55,3 +55,11 @@
 - 17:25 act: {"actions":[{"do":"goto","target":{"x":-956,"y":68,"z":-3176}},{"do":"craft","item":"dark_oak_planks","count":24}],"say":"Dusk is coming. I have 15 logs and I'm making planks for a shelter beside my t
 - 17:26 act: {"actions":[{"do":"craft","item":"dark_oak_planks","count":24}],"say":"Dusk is coming. I have 15 logs and I'm making planks for a shelter."}
 - 17:26 act: {"intent":{"goal":"build_shelter","program":"build","arguments":{"blueprint":"shelter","block":"dark_oak_planks"},"wake_on":["goal_completed","unexpected_damage","directly_addressed","precondition_fai
+- 17:30 act: {"actions":[{"do":"goto","target":{"x":-955,"y":78,"z":-3015}}],"say":"Galileo, daytime, healthy and fed. Walking back to the group's tables now.","intent":{"goal":"return_to_group","program":"travel"
+- 17:31 act: {"actions":[{"do":"craft","item":"dark_oak_planks","count":8}],"say":"Galileo, dusk. Too dark to walk to the tables, so I'm building a shelter right here.","intent":{"goal":"shelter_for_night","progra
+- 17:39 act: {"actions":[{"do":"goto","target":{"x":-955,"y":78,"z":-3015}}],"say":"Galileo, dawn, healthy and fed. Walking to the group at the tables."}
+- 17:41 act: {"actions":[{"do":"goto","target":{"x":-955,"y":65,"z":-3160}}]}
+- 17:54 act: {"actions":[{"do":"craft","item":"dark_oak_planks","count":16}],"say":"Galileo, night, in the open. Building a shelter here now.","intent":{"goal":"shelter_for_night","program":"build","arguments":{"b
+- 18:02 act: {"actions":[{"do":"place","block":"dark_oak_planks","at":"feet"}],"intent":{"goal":"shelter_for_day","program":"build","arguments":{"blueprint":"shelter","block":"dark_oak_planks"},"wake_on":["goal_co
+- 18:06 act: {"actions":[],"say":"Galileo here, near -952,66,-3171. I have no food either, only planks. If anyone finds food, I'll trade planks for it."}
+- 18:14 act: {"actions":[],"intent":{"goal":"shelter_for_night_2","program":"build","arguments":{"blueprint":"shelter","block":"dark_oak_planks"},"wake_on":["goal_completed","directly_addressed","unexpected_damage
