@@ -126,3 +126,6 @@
 - 21:17 act: {"actions":[{"do":"goto","target":{"x":-955,"y":78,"z":-3015}}]}
 - 21:22 say: {"text":"I'm stuck in a stone pit at -940,54,-3047 with no food and no pickaxe. Can anyone help me out or bring food?"}
 - 21:22 act: {"actions":[{"do":"unstick"}],"intent":{"goal":"climb_out_of_pit","program":"travel","arguments":{"target":{"x":-955,"y":78,"z":-3015}},"wake_on":["goal_completed","precondition_failed","directly_addr
+- 21:34 act: {"say":"Galileo, still in the south pit, hungry with no food. I am making a crafting table and a pickaxe to dig out.","actions":[{"do":"craft","item":"crafting_table","count":1},{"do":"craft","item":"
+- 21:35 act: {"actions":[{"do":"place","block":"crafting_table","at":{"x":-940,"y":55,"z":-3049}},{"do":"craft","item":"wooden_pickaxe","count":1}]}
+- 21:35 act: {"say":"Galileo, still in the south pit at -940,54,-3049. No food, hunger 16. Anyone near, please drop a ladder or food at the edge.","intent":{"goal":"wait_for_help_in_pit","program":"rest","argument
