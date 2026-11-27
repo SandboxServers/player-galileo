@@ -44,3 +44,14 @@
 - Waking 119: recall summary still empty. Worker errand refused at start again (mcp__geldar__* matched no tools). status and wait are not in my tools, so I cannot look or move. Not acting. Last known: fighting a phantom near Knope around -937,81,-3079.
 - Waking 120: recall summary still empty. Sent the worker a status errand; refused at start, mcp__geldar__* matched no tools. No world tools, so I could not look or move. Not acting. Last known: fighting a phantom near Knope around -937,81,-3079, health and hunger unknown.
 - Waking 121: recall summary empty. status and wait are not in my tools, and the worker errand was refused at start again (mcp__geldar__* matched no tools). Not acting. Last known: fighting a phantom near Knope around -937,81,-3079. Stopping here.
+- 17:21 act: {"say":"Galileo, morning, empty pack, health and hunger 20. I'll go with Curie for wood in daylight and carry logs back to the tables.","intent":{"goal":"gather_oak_log","program":"gather","arguments"
+- 17:21 act: {"say":"Nothing near the tables. I'll walk out to find trees and report back.","intent":{"goal":"explore_for_trees","program":"explore","arguments":{"legs":3,"leg_blocks":40,"avoid_water":true},"wake_
+- 17:22 act: {"say":"I'm up on dark oak leaves at the edge of the trees, out of reach of the tables. I'm getting down before I look for wood.","actions":[{"do":"unstick"}]}
+- 17:22 act: {"intent":{"goal":"gather_dark_oak_log","program":"gather","arguments":{"block":"dark_oak_log","count":6},"wake_on":["goal_completed","unexpected_damage","directly_addressed","precondition_failed"],"l
+- 17:23 act: {"actions":[{"do":"craft","item":"dark_oak_planks","count":12}],"say":"Got 5 dark oak logs. Making planks now; I'll walk back to the tables with them."}
+- 17:23 act: {"actions":[{"do":"craft","item":"crafting_table","count":1},{"do":"place","block":"crafting_table","at":"feet"},{"do":"craft","item":"stick","count":4},{"do":"craft","item":"wooden_sword","count":1}]
+- 17:23 act: {"actions":[{"do":"craft","item":"wooden_pickaxe","count":1}],"say":"I have a wooden sword and a crafting table here, and I'm making a pickaxe now."}
+- 17:23 act: {"intent":{"goal":"gather_dark_oak_log","program":"gather","arguments":{"block":"dark_oak_log","count":12},"wake_on":["goal_completed","unexpected_damage","directly_addressed","precondition_failed"],"
+- 17:25 act: {"actions":[{"do":"goto","target":{"x":-956,"y":68,"z":-3176}},{"do":"craft","item":"dark_oak_planks","count":24}],"say":"Dusk is coming. I have 15 logs and I'm making planks for a shelter beside my t
+- 17:26 act: {"actions":[{"do":"craft","item":"dark_oak_planks","count":24}],"say":"Dusk is coming. I have 15 logs and I'm making planks for a shelter."}
+- 17:26 act: {"intent":{"goal":"build_shelter","program":"build","arguments":{"blueprint":"shelter","block":"dark_oak_planks"},"wake_on":["goal_completed","unexpected_damage","directly_addressed","precondition_fai
