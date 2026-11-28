@@ -52,3 +52,8 @@
 - 00:25 act: {"actions":[{"do":"break","at":{"x":-940,"y":50,"z":-3030}},{"do":"break","at":{"x":-942,"y":50,"z":-3030}},{"do":"break","at":{"x":-941,"y":50,"z":-3029}}],"reasoning":"Travel says no path. Open the 
 - 00:25 act: {"actions":[{"do":"goto","target":{"x":-955,"y":78,"z":-3015}}],"intent":{"goal":"reach_tables","program":"travel","arguments":{"target":{"x":-955,"y":78,"z":-3015}},"wake_on":["goal_completed","preco
 - 00:27 act: {"actions":[{"do":"break","at":{"x":-940,"y":51,"z":-3033}},{"do":"break","at":{"x":-940,"y":52,"z":-3033}},{"do":"break","at":{"x":-940,"y":53,"z":-3033}}],"reasoning":"Travel still finds no path. Di
+- 00:40 act: {"actions":[{"do":"break","at":{"x":-939,"y":50,"z":-3031}}],"say":"Still sealed in with no food. Digging east to try a new way out."}
+- 00:40 act: {"actions":[{"do":"break","at":{"x":-938,"y":50,"z":-3031}},{"do":"goto","target":{"x":-938,"y":50,"z":-3031}},{"do":"break","at":{"x":-937,"y":50,"z":-3031}},{"do":"goto","target":{"x":-937,"y":50,"z
+- 00:41 act: {"actions":[{"do":"break","at":{"x":-938,"y":50,"z":-3031}},{"do":"break","at":{"x":-938,"y":51,"z":-3031}},{"do":"goto","target":{"x":-938,"y":50,"z":-3031}}],"say":"Still hungry and sealed in. If an
+- 00:41 act: {"actions":[{"do":"goto","target":{"x":-938,"y":50,"z":-3031}}]}
+- 00:45 say: {"text":"Dusk, and I'm still stuck here hungry with no food. If you can hear me, please come to the south stone tunnel near -939, 50, -3031."}
