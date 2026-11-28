@@ -57,3 +57,11 @@
 - 00:41 act: {"actions":[{"do":"break","at":{"x":-938,"y":50,"z":-3031}},{"do":"break","at":{"x":-938,"y":51,"z":-3031}},{"do":"goto","target":{"x":-938,"y":50,"z":-3031}}],"say":"Still hungry and sealed in. If an
 - 00:41 act: {"actions":[{"do":"goto","target":{"x":-938,"y":50,"z":-3031}}]}
 - 00:45 say: {"text":"Dusk, and I'm still stuck here hungry with no food. If you can hear me, please come to the south stone tunnel near -939, 50, -3031."}
+- 00:54 act: {"actions":[{"do":"break","at":{"x":-939,"y":51,"z":-3031}}],"say":"Still sealed in granite and hungry. I'm digging up to get out."}
+- 00:54 act: {"actions":[{"do":"goto","target":{"x":-939,"y":51,"z":-3031}}]}
+- 01:02 act: {"actions":[{"do":"note","text":"Waiting in the granite pocket at -939,50,-3031 for help. Hunger 15, no food. Nobody has come yet."}],"say":"Still here at the south stone pocket near -939, 50, -3031. 
+- 01:02 act: {"actions":[{"do":"break","at":{"x":-939,"y":50,"z":-3030}},{"do":"break","at":{"x":-939,"y":51,"z":-3030}},{"do":"goto","target":{"x":-939,"y":50,"z":-3030}}],"say":"Digging toward the tables, south 
+- 01:02 act: {"actions":[{"do":"goto","target":{"x":-939,"y":50,"z":-3030}}]}
+- 01:02 act: {"actions":[{"do":"unstick"}]}
+- 01:02 act: {"actions":[{"do":"goto","target":{"x":-955,"y":78,"z":-3015}}],"intent":{"goal":"reach_tables","program":"travel","arguments":{"target":{"x":-955,"y":78,"z":-3015}},"wake_on":["goal_completed","direc
+- 01:06 act: {"actions":[{"do":"note","text":"Day 1186. Still in the granite pocket near -941,50,-3030. Travel to tables blocked. Hunger 15, health 4.67 steady. Waiting for anyone to come."}],"say":"Still stuck in
