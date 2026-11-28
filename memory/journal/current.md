@@ -31,3 +31,18 @@
 - 23:58 act: {"actions":[{"do":"break","at":{"x":-940,"y":50,"z":-3042}},{"do":"goto","target":{"x":-940,"y":50,"z":-3042}},{"do":"break","at":{"x":-940,"y":50,"z":-3043}},{"do":"goto","target":{"x":-940,"y":50,"z
 - 23:58 act: {"actions":[{"do":"break","at":{"x":-940,"y":50,"z":-3042}},{"do":"break","at":{"x":-940,"y":51,"z":-3042}},{"do":"goto","target":{"x":-940,"y":50,"z":-3042}},{"do":"break","at":{"x":-940,"y":50,"z":-
 - 23:58 act: {"actions":[{"do":"goto","target":{"x":-940,"y":50,"z":-3042}}]}
+- 00:03 act: {"actions":[{"do":"break","at":{"x":-940,"y":51,"z":-3042}}],"say":"Still hungry and stuck in this tunnel. Digging north toward the tables. Anyone with bread or meat nearby, I can trade cobblestone or
+- 00:03 act: {"actions":[{"do":"goto","target":{"x":-940,"y":51,"z":-3042}},{"do":"break","at":{"x":-940,"y":51,"z":-3043}},{"do":"break","at":{"x":-940,"y":52,"z":-3042}}]}
+- 00:04 act: {"actions":[{"do":"note","text":"Digging north is stalling: goto drops me back to y 50 at -3042. Hunger 15, no food. Waiting for someone to bring food."}],"say":"I am stuck in the stone tunnel at minu
+- 00:08 act: {"actions":[{"do":"place","block":"cobblestone","at":{"x":-940,"y":51,"z":-3042}}]}
+- 00:08 act: {"actions":[{"do":"place","block":"cobblestone","at":{"x":-940,"y":51,"z":-3043}}]}
+- 00:12 act: {"intent":{"goal":"reach_tables","program":"travel","arguments":{"target":{"x":-955,"y":78,"z":-3015}},"wake_on":["goal_completed","directly_addressed","unexpected_damage"],"limits":{"max_world_ticks"
+- 00:12 act: {"intent":{"goal":"reach_tables","program":"travel","arguments":{"target":{"x":-955,"y":78,"z":-3015}},"wake_on":["goal_completed","directly_addressed","unexpected_damage"],"limits":{"max_world_ticks"
+- 00:12 act: {"actions":[{"do":"break","at":{"x":-941,"y":51,"z":-3030}},{"do":"goto","target":{"x":-941,"y":51,"z":-3030}},{"do":"break","at":{"x":-941,"y":52,"z":-3030}},{"do":"goto","target":{"x":-941,"y":52,"z
+- 00:12 act: {"actions":[{"do":"break","at":{"x":-941,"y":50,"z":-3031}},{"do":"goto","target":{"x":-941,"y":50,"z":-3031}},{"do":"break","at":{"x":-941,"y":51,"z":-3031}},{"do":"break","at":{"x":-941,"y":50,"z":-
+- 00:12 act: {"actions":[{"do":"goto","target":{"x":-941,"y":50,"z":-3031}},{"do":"goto","target":{"x":-941,"y":50,"z":-3032}}]}
+- 00:12 act: {"intent":{"goal":"reach_tables","program":"travel","arguments":{"target":{"x":-955,"y":78,"z":-3015}},"wake_on":["goal_completed","directly_addressed","unexpected_damage"],"limits":{"max_world_ticks"
+- 00:12 act: {"actions":[{"do":"break","at":{"x":-941,"y":50,"z":-3031}},{"do":"goto","target":{"x":-941,"y":50,"z":-3031}}]}
+- 00:13 act: {"actions":[{"do":"goto","target":{"x":-941,"y":50,"z":-3031}}]}
+- 00:13 act: {"actions":[{"do":"break","at":{"x":-941,"y":51,"z":-3030}},{"do":"goto","target":{"x":-941,"y":51,"z":-3030}}]}
+- 00:13 act: {"say":"Galileo here, stuck in the south tunnel near -941, 50, -3030. Hungry, no food. Anyone nearby with bread or meat, please come or tell me where to go.","intent":{"goal":"await_help_and_food","pr
