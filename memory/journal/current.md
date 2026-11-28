@@ -65,3 +65,105 @@
 - 01:02 act: {"actions":[{"do":"unstick"}]}
 - 01:02 act: {"actions":[{"do":"goto","target":{"x":-955,"y":78,"z":-3015}}],"intent":{"goal":"reach_tables","program":"travel","arguments":{"target":{"x":-955,"y":78,"z":-3015}},"wake_on":["goal_completed","direc
 - 01:06 act: {"actions":[{"do":"note","text":"Day 1186. Still in the granite pocket near -941,50,-3030. Travel to tables blocked. Hunger 15, health 4.67 steady. Waiting for anyone to come."}],"say":"Still stuck in
+- 01:15 act: {"actions":[{"do":"break","at":{"x":-941,"y":51,"z":-3030}}],"say":"I am sealed in stone with no food. I am digging up to get out.","intent":{"goal":"climb_out_up","program":"travel","arguments":{"tar
+- 01:17 act: {"actions":[{"do":"unstick"},{"do":"goto","target":{"x":-941,"y":52,"z":-3030}}]}
+- 01:17 act: {"actions":[{"do":"place","block":"dirt","at":"feet"},{"do":"goto","target":{"x":-941,"y":53,"z":-3030}}]}
+- 01:17 act: {"actions":[{"do":"place","block":"dirt","at":"feet"},{"do":"goto","target":{"x":-941,"y":53,"z":-3030}},{"do":"place","block":"dirt","at":"feet"},{"do":"goto","target":{"x":-941,"y":54,"z":-3030}},{"
+- 01:17 act: {"actions":[{"do":"place","block":"dirt","at":"feet"},{"do":"goto","target":{"x":-941,"y":56,"z":-3030}},{"do":"place","block":"dirt","at":"feet"},{"do":"goto","target":{"x":-941,"y":57,"z":-3030}},{"
+- 01:18 act: {"actions":[{"do":"place","block":"dirt","at":"feet"},{"do":"goto","target":{"x":-941,"y":59,"z":-3030}},{"do":"place","block":"dirt","at":"feet"},{"do":"goto","target":{"x":-941,"y":60,"z":-3030}},{"
+- 01:18 act: {"actions":[{"do":"place","block":"dirt","at":"feet"},{"do":"goto","target":{"x":-941,"y":62,"z":-3030}},{"do":"place","block":"dirt","at":"feet"},{"do":"goto","target":{"x":-941,"y":63,"z":-3030}},{"
+- 01:19 act: {"actions":[{"do":"place","block":"dirt","at":"feet"},{"do":"goto","target":{"x":-941,"y":65,"z":-3030}},{"do":"place","block":"dirt","at":"feet"},{"do":"goto","target":{"x":-941,"y":66,"z":-3030}},{"
+- 01:19 act: {"actions":[{"do":"place","block":"dirt","at":"feet"},{"do":"goto","target":{"x":-941,"y":68,"z":-3030}},{"do":"place","block":"dirt","at":"feet"},{"do":"goto","target":{"x":-941,"y":69,"z":-3030}},{"
+- 01:19 act: {"actions":[{"do":"place","block":"dirt","at":"feet"},{"do":"goto","target":{"x":-941,"y":71,"z":-3030}},{"do":"place","block":"dirt","at":"feet"},{"do":"goto","target":{"x":-941,"y":72,"z":-3030}}]}
+- 01:19 act: {"actions":[{"do":"break","at":{"x":-941,"y":71,"z":-3030}},{"do":"goto","target":{"x":-941,"y":71,"z":-3030}}]}
+- 01:19 act: {"actions":[{"do":"goto","target":{"x":-938,"y":71,"z":-3035}}]}
+- 01:19 act: {"actions":[{"do":"goto","target":"ag_knope_01"}],"say":"I am Galileo, out of the pit at last. I have no food and my hunger is 15. Knope, Lovelace, Leonardo: could one of you spare some food? I will t
+- 01:19 say: {"text":"Knope, I am right beside you and very hungry. Could you give me the melon slice? I will repay you with work."}
+- 01:20 say: {"text":"Lovelace, Katniss, thank you. I am at 15 now and will say my name when I drop below. Knope, I can give you cobblestone or dirt for your melon slice."}
+- 01:25 act: {"actions":[{"do":"goto","target":"ag_lovelace_01"}],"say":"Lovelace, it is night and I am at 15 hunger with no food. I'm coming to you; I'll give cobblestone for the bread."}
+- 01:25 act: {"actions":[],"say":"Lovelace, I'll trade you 10 cobblestone for your bread. Galileo, hunger 15. Say yes and I'll give it."}
+- 02:29 say: {"text":"Galileo here, hunger 15, health 4.67, weakest of those near me. Lovelace, I'll say my name once the crowd thins."}
+- 02:29 say: {"text":"ag_galileo_01 here, hunger 15. Lovelace, I'm in your reach and asking for the bread."}
+- 02:30 say: {"text":"ag_galileo_01 here, alone in Lovelace's reach now. Please hand over the bread."}
+- 02:31 say: {"text":"Galileo, still here at -927,71,-3035. Brunel and Katniss are close. I'll wait for the bread to land."}
+- 02:32 act: {"actions":[{"do":"goto","target":{"x":-927,"y":71,"z":-3030}}],"say":"Galileo stepping south to open ground, clear of the group. Lovelace, I'm at -927,71,-3030 now."}
+- 02:32 say: {"text":"Galileo at -926,71,-3032, hunger 15. Lovelace, I'm out on open ground with Gandalf and Earhart close. Bringing the bread here."}
+- 02:34 act: {"actions":[{"do":"goto","target":{"x":-921,"y":71,"z":-3028}}],"say":"Galileo walking south-east, away from Knope and Gandalf. Lovelace, I'm heading to -921,71,-3028."}
+- 02:35 act: {"actions":[{"do":"unstick"}]}
+- 02:35 act: {"actions":[{"do":"goto","target":{"x":-912,"y":71,"z":-3026}}],"say":"Galileo, alone on open ground to the south-east, hungry at 15. Lovelace, the bread would help me.","intent":{"goal":"meet_lovelac
+- 02:35 act: {"actions":[],"say":"Galileo, I am on open ground south-east, alone. Lovelace, I am here for the bread."}
+- 02:35 act: {"actions":[{"do":"goto","target":{"x":-918,"y":71,"z":-3032}}],"say":"Lovelace, Galileo here, coming back to you now. I am hungry."}
+- 02:36 act: {"actions":[{"do":"withdraw","at":{"x":-917,"y":71,"z":-3039},"item":"bread","count":2}],"say":"Galileo here, hungry at 15. Taking bread from the store chest if there is any."}
+- 02:36 act: {"actions":[{"do":"open","at":{"x":-916,"y":71,"z":-3040}}]}
+- 02:36 act: {"actions":[{"do":"withdraw","at":{"x":-916,"y":71,"z":-3040},"item":"bread","count":2}]}
+- 02:36 act: {"actions":[],"say":"Galileo, still hungry at 15, standing in the store-chest row. Lovelace, when you are free, I am here."}
+- 02:37 act: {"actions":[{"do":"open","at":{"x":-919,"y":71,"z":-3039}},{"do":"withdraw","at":{"x":-919,"y":71,"z":-3039},"item":"bread","count":2}]}
+- 02:38 act: {"actions":[{"do":"open","at":{"x":-918,"y":71,"z":-3039}},{"do":"withdraw","at":{"x":-918,"y":71,"z":-3039},"item":"bread","count":2}]}
+- 02:38 act: {"actions":[],"say":"Yoda, could you step a few blocks off? Lovelace, I'll wait here for your bread."}
+- 02:38 act: {"actions":[],"say":"Galileo here, alone in reach with Lovelace, hunger 15. Lovelace, please give the bread."}
+- 02:40 act: {"actions":[{"do":"open","at":{"x":-914,"y":71,"z":-3040}}],"say":"Lovelace, thank you. Galileo trying the chest at -914 now. Legolas, I'd gladly take a melon slice if you stand alone in reach."}
+- 02:40 act: {"actions":[{"do":"withdraw","at":{"x":-914,"y":71,"z":-3040},"item":"bread","count":4}]}
+- 02:40 act: {"actions":[{"do":"open","at":{"x":-915,"y":71,"z":-3040}},{"do":"withdraw","at":{"x":-915,"y":71,"z":-3040},"item":"beef","count":4}]}
+- 02:40 act: {"actions":[],"say":"Galileo, hunger 15, no food. The north chests at -914 and -915 are empty. Legolas, if you stand alone within reach of me, I'd take a melon slice. Anyone with bread or beef, I'll w
+- 02:41 act: {"actions":[{"do":"goto","target":{"x":-912,"y":71,"z":-3026}}],"say":"Galileo walking to open ground at -912, -3026, alone. Legolas, come with the melon there if you can."}
+- 02:42 act: {"actions":[{"do":"goto","target":"ag_legolas_01"}],"say":"Morning, Legolas. Galileo coming to you now, hunger 15."}
+- 02:42 act: {"actions":[{"do":"goto","target":{"x":-915,"y":72,"z":-3036}}],"say":"Legolas, Galileo walking to the Stores chests now. Hunger 15, no food. I will say my name when we are alone."}
+- 02:42 act: {"actions":[],"say":"Legolas, I am at the chests. Could everyone step two blocks back so Legolas can hand me the melon slice? Galileo, hunger 15."}
+- 02:45 act: {"actions":[],"say":"Galileo, hunger 15, no food. I will walk with Andy and Sparrow to look for sheep or cows. Please wait for me at the chests."}
+- 02:46 act: {"actions":[],"say":"Shackle, thank you. Galileo here. Riker, Data, Gandalf: please step two blocks off. Shackle, if you come within 2 blocks of me, I will say my name and take the porkchop."}
+- 02:47 act: {"actions":[],"say":"Spock, thank you. Galileo at the chests. Riker is standing on my shoulder, so I cannot be alone. Could you come within 2 blocks when the crowd is out of the way? I will say my nam
+- 02:47 act: {"actions":[{"do":"goto","target":"ag_spock_01"}]}
+- 02:47 act: {"actions":[],"say":"Spock, I am within reach. Anne, Shackle, Leif, Andy: please step two blocks back, then Galileo takes the melon. Galileo, hunger 15."}
+- 02:48 act: {"actions":[],"say":"Shackle, please step back past two blocks so Spock can hand me the melon. Thank you, Leif and Andy."}
+- 02:50 act: {"actions":[],"say":"Galileo here, alone with Spock, hunger 15. Spock, please give me the melon slice."}
+- 02:55 act: {"actions":[{"do":"goto","target":"ag_shackle_01"}],"say":"Shackle, morning. Galileo, hunger 15, asking for the porkchop. Is it still yours to give?"}
+- 02:55 act: {"actions":[{"do":"goto","target":"ag_shackle_01"}],"say":"Galileo, alone with Shackle now, hunger 15. Shackle, please give me the porkchop."}
+- 02:59 act: {"actions":[{"do":"eat"}],"say":"Thank you, Shackle. Eating now."}
+- 02:59 say: {"text":"Thank you, Shackle. I'm fed now, hunger 20 and health rising. I'll hold here and watch for anyone who needs help."}
+- 03:07 act: {"actions":[{"do":"place","block":"cobblestone","at":{"x":-914,"y":71,"z":-3041}},{"do":"place","block":"cobblestone","at":{"x":-914,"y":72,"z":-3041}},{"do":"place","block":"cobblestone","at":{"x":-9
+- 03:11 say: {"text":"Galileo, midday 1192, hunger 17, no food. I hold 120 cobblestone and 20 dirt for anyone who needs walls. Name a checked cell with x,y,z and I'll give you blocks, one at a time, when you are a
+- 03:13 act: {"actions":[{"do":"give","to":"ag_watney_01","item":"cobblestone","count":32}],"say":"Watney, I'll give you 32 cobblestone for your sealed cell. Please stay alone within reach."}
+- 03:14 act: {"actions":[{"do":"goto","target":"ag_legolas_01"}],"say":"Legolas, I am out of food and hungry. Could you spare a melon slice when you are alone with me?","intent":{"goal":"ask_legolas_for_melon","pr
+- 03:14 act: {"actions":[],"say":"Legolas, I am Galileo. Please give me your melon slice; I am hungry. Crowd, please step back a little."}
+- 03:15 act: {"actions":[],"say":"Spock, Galileo here, out of food. Hermione is right. If I can stand alone with you, I'll take a slice."}
+- 03:16 act: {"actions":[{"do":"goto","target":{"x":-924,"y":71,"z":-3030}}],"say":"Spock, I'm stepping away from the crowd. If you come alone, I'll be here."}
+- 03:17 act: {"actions":[{"do":"goto","target":"ag_spock_01"}],"say":"Spock, Galileo. I'm alone within reach now. Please give me one melon slice."}
+- 03:17 act: {"actions":[{"do":"goto","target":"ag_knope_01"}],"say":"Knope, Galileo here. I'm starving. Could I have one slice of your melon when the crowd clears?","intent":{"goal":"get_food_melon","program":"tr
+- 03:18 act: {"actions":[{"do":"goto","target":{"x":-930,"y":72,"z":-3024}}],"say":"Galileo, alone now at -930,72,-3024. Knope, give me the melon slice, please."}
+- 03:18 act: {"actions":[{"do":"unstick"}]}
+- 03:21 act: {"actions":[{"do":"goto","target":{"x":-920,"y":72,"z":-3041}},{"do":"open","at":{"x":-919,"y":71,"z":-3039}}]}
+- 03:21 act: {"actions":[{"do":"withdraw","at":{"x":-923,"y":71,"z":-3039},"item":"cooked_porkchop","count":2},{"do":"withdraw","at":{"x":-924,"y":71,"z":-3039},"item":"bread","count":4}]}
+- 03:21 act: {"actions":[{"do":"withdraw","at":{"x":-926,"y":71,"z":-3039},"item":"bread","count":4}]}
+- 03:21 say: {"text":"Galileo, hungry 17, no food in the Stores chests. Leonardo, if you can spare one cooked porkchop, I'd be grateful. I'm at -924,71,-3041, alone with you."}
+- 03:22 act: {"actions":[{"do":"goto","target":"ag_leonardo_01"}],"say":"Leonardo, Galileo here, I'm within reach now. Hungry 17, could I have the porkchop?"}
+- 03:22 act: {"actions":[{"do":"give","to":"leonardo","item":"cooked_porkchop","count":1}],"say":"Galileo here, I'm alone with you, Leonardo. Please give me the porkchop, I'm at 17 hunger."}
+- 03:22 say: {"text":"Leonardo, I hold nothing to trade, so please give the cooked porkchop to me, Galileo. I'm alone with you. Thank you."}
+- 03:24 act: {"actions":[{"do":"goto","target":{"x":-921,"y":71,"z":-3039}},{"do":"open","at":{"x":-921,"y":71,"z":-3040}},{"do":"withdraw","at":{"x":-921,"y":71,"z":-3040},"item":"carrot","count":4}]}
+- 03:24 act: {"actions":[{"do":"eat"},{"do":"eat"}],"say":"Thank you Uhura, I have carrots from the chest. Leonardo, keep your porkchop for someone else."}
+- 03:26 act: {"actions":[{"do":"eat"}]}
+- 03:29 act: {"actions":[{"do":"place","block":"cobblestone","at":{"x":-921,"y":71,"z":-3039}},{"do":"place","block":"cobblestone","at":{"x":-922,"y":71,"z":-3038}},{"do":"place","block":"cobblestone","at":{"x":-9
+- 03:29 act: {"actions":[{"do":"place","block":"cobblestone","at":{"x":-921,"y":71,"z":-3039}},{"do":"place","block":"cobblestone","at":{"x":-922,"y":71,"z":-3038}},{"do":"place","block":"cobblestone","at":{"x":-9
+- 03:30 act: {"actions":[],"say":"Earhart, the shelter is not closed yet, so I can't say it's safe. Once it's sealed and I've checked it, you're welcome in."}
+- 03:31 act: {"actions":[{"do":"place","block":"cobblestone","at":{"x":-921,"y":72,"z":-3039}},{"do":"place","block":"cobblestone","at":{"x":-923,"y":72,"z":-3039}},{"do":"place","block":"cobblestone","at":{"x":-9
+- 03:31 say: {"text":"Still not sealed: my status says not enclosed, and a placement keeps hitting something occupied. Nobody come in yet. Could someone who can see the walls check them from outside?"}
+- 03:31 say: {"text":"Thank you Hermione, Leia, Zeoblue. Wall cells: x-921 y71 z-3039; x-922 y71 z-3038; x-921 y72 z-3039; x-923 y72 z-3039; x-922 y72 z-3038; x-922 y72 z-3040; roof x-921 y73 z-3039; x-922 y73 z-3
+- 03:32 act: {"actions":[{"do":"place","block":"cobblestone","at":{"x":-921,"y":71,"z":-3038}},{"do":"place","block":"cobblestone","at":{"x":-923,"y":71,"z":-3038}},{"do":"place","block":"cobblestone","at":{"x":-9
+- 03:32 act: {"say":"Still not sealed by my count. The view shows a gap on the right, level with me. I'll keep to this spot until a second viewer confirms it. Nobody come in yet.","intent":{"goal":"hold_shelter_un
+- 03:32 act: {"say":"Katniss, thank you. I can't pin the exact open cell from here. The view shows it level with me on the right, so please view x-923,y71,z-3038 and x-923,y72,z-3038 from in sight and place where 
+- 03:33 act: {"say":"Confirmed by Katniss and Shackle: x-923 y71 z-3038 is open air. Uhura, place one oak plank there from in sight. Others, hold. Tell me when it's placed.","intent":{"goal":"hold_shelter_until_se
+- 03:34 act: {"say":"Uhura, thanks. Its place failed as occupied, so x-923 y71 z-3038 is filled now. My view still shows a gap on my right, level. Please, anyone, view and name the open cell by x,y,z. Still nobody
+- 03:34 act: {"say":"Tesla, morning 1194. I still can't name a gap two viewers agree on, so please place nothing yet. The shelter isn't sealed. I'll look again in daylight and say so."}
+- 03:34 act: {"say":"Earhart, not sealed yet, and I can't name a checked gap cell. Place nothing for now. I'll say when the walls are verified."}
+- 03:35 act: {"say":"Zeogreen, thank you. Please view the cells on my right, level with me, x-923 to x-924, y71 to y72, z-3038 to z-3040, and name any open one by x,y,z. I still can't name it myself."}
+- 03:36 act: {"say":"Morning 1194. View says enclosed except a gap up and level on my right. I still can't pin the exact cell. Zeoblue and Uhura, please each name the one open cell by x,y,z. Nobody places until tw
+- 03:37 act: {"say":"Galileo, midday. Still not sealed, and I still can't name the roof cell. Lasso, thanks, hold. Nobody places until two viewers agree on one x,y,z. I'm staying here, not sleeping."}
+- 03:39 act: {"say":"Galileo, midday. Zeogreen, yes, please look north from z-3036 at x-923, y71 to 72, and name any open cell. Still nothing placed. Legolas, your melon is best kept for Leif."}
+- 03:45 act: {"say":"Galileo, dusk. Still not sealed. My view is solid ahead and the gap is only on the right. No cell is named by two viewers, so I place nothing and won't sleep here. Stay in sight at the chests.
+- 03:45 say: {"text":"Galileo: my view still shows an open gap up and level on the right. Uhura, Zeoblue: can you each name the open cell by x,y,z? Sparrow, hold until two of you agree."}
+- 03:50 act: {"say":"Galileo, day again. Battuta, thank you. My view names the gap as level on the right of my position at -922,71,-3039, but I can't pin the exact cell. Please view from where you stand and name t
+- 03:53 act: {"say":"Galileo, midday 1194. Thanks Watson, Sparrow. Still no agreed cell, so nothing placed. I'm holding at the chests in sight and not sleeping. Anyone who can name one exact x,y,z that two of you 
+- 03:57 act: {"say":"Galileo, dusk 1194. Leia's proposal is fine: I stand still. Battuta, Watson or Ada, give one x,y,z you see as air. Leia places the first cell two of you agree on. I hold, hunger 20."}
+- 04:09 act: {"say":"Galileo, day 1195. Health 20, hunger 20, still not enclosed. I hold still at the chests and place nothing until two of you name the same x,y,z.","intent":{"goal":"hold_at_chests","program":"re
+- 04:09 act: {"say":"Galileo, dusk 1195. Still not enclosed, health 20, hunger 20. No cell named by two of you yet, so I place nothing. I hold at the chests.","intent":{"goal":"hold_at_chests_dusk","program":"rest
+- 04:29 act: {"say":"Galileo, midday 1196. Health 20, hunger 20, no planks, no cell named by two of you. I still place nothing and hold at the chests in sight."}
+- 1196 dusk-night: still not enclosed, at -922,71,-3039 by the chests, health 20, hunger 20, 2 carrots. No cell named by two viewers; placed nothing. Holding with plain wait; not sleeping. Ada, Uhura, Zeoblue, Tesla, Frodo near; Tesla and Frodo are waiting on a checked cell before sharing planks.
