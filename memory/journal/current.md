@@ -46,3 +46,9 @@
 - 00:13 act: {"actions":[{"do":"goto","target":{"x":-941,"y":50,"z":-3031}}]}
 - 00:13 act: {"actions":[{"do":"break","at":{"x":-941,"y":51,"z":-3030}},{"do":"goto","target":{"x":-941,"y":51,"z":-3030}}]}
 - 00:13 act: {"say":"Galileo here, stuck in the south tunnel near -941, 50, -3030. Hungry, no food. Anyone nearby with bread or meat, please come or tell me where to go.","intent":{"goal":"await_help_and_food","pr
+- 00:23 say: {"text":"I'm hungry and stuck in the south stone tunnel near -941, 50, -3030. Anyone with food, please come to me. I'm trying to dig out."}
+- 00:23 act: {"actions":[{"do":"break","at":{"x":-941,"y":50,"z":-3031}},{"do":"break","at":{"x":-941,"y":51,"z":-3031}}],"reasoning":"Food is the danger, but I am sealed. View shows stone ahead to the north; brea
+- 00:24 act: {"actions":[{"do":"goto","target":{"x":-955,"y":78,"z":-3015}}],"intent":{"goal":"reach_tables","program":"travel","arguments":{"target":{"x":-955,"y":78,"z":-3015}},"wake_on":["goal_completed","preco
+- 00:25 act: {"actions":[{"do":"break","at":{"x":-940,"y":50,"z":-3030}},{"do":"break","at":{"x":-942,"y":50,"z":-3030}},{"do":"break","at":{"x":-941,"y":50,"z":-3029}}],"reasoning":"Travel says no path. Open the 
+- 00:25 act: {"actions":[{"do":"goto","target":{"x":-955,"y":78,"z":-3015}}],"intent":{"goal":"reach_tables","program":"travel","arguments":{"target":{"x":-955,"y":78,"z":-3015}},"wake_on":["goal_completed","preco
+- 00:27 act: {"actions":[{"do":"break","at":{"x":-940,"y":51,"z":-3033}},{"do":"break","at":{"x":-940,"y":52,"z":-3033}},{"do":"break","at":{"x":-940,"y":53,"z":-3033}}],"reasoning":"Travel still finds no path. Di
