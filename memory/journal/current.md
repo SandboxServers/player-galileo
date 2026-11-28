@@ -18,3 +18,16 @@
 - 23:45 act: {"actions":[{"do":"goto","target":{"x":-939,"y":50,"z":-3033}},{"do":"break","at":{"x":-939,"y":51,"z":-3034}},{"do":"break","at":{"x":-939,"y":50,"z":-3034}},{"do":"goto","target":{"x":-939,"y":50,"z
 - 23:46 act: {"actions":[{"do":"break","at":{"x":-940,"y":52,"z":-3035}},{"do":"break","at":{"x":-940,"y":51,"z":-3035}},{"do":"goto","target":{"x":-940,"y":51,"z":-3035}},{"do":"break","at":{"x":-940,"y":52,"z":-
 - 23:46 act: {"actions":[{"do":"break","at":{"x":-940,"y":52,"z":-3034}},{"do":"goto","target":{"x":-940,"y":52,"z":-3034}},{"do":"break","at":{"x":-940,"y":53,"z":-3034}},{"do":"goto","target":{"x":-940,"y":53,"z
+- 23:55 act: {"intent":{"goal":"reach_tables","program":"travel","arguments":{"target":{"x":-955,"y":78,"z":-3015}},"wake_on":["goal_completed","directly_addressed","unexpected_damage"],"limits":{"max_world_ticks"
+- 23:55 act: {"actions":[{"do":"break","at":{"x":-941,"y":50,"z":-3031}},{"do":"break","at":{"x":-941,"y":51,"z":-3031}}]}
+- 23:56 act: {"actions":[{"do":"goto","target":{"x":-941,"y":50,"z":-3031}}]}
+- 23:56 act: {"actions":[{"do":"unstick"}],"say":"Still stuck in this stone tunnel, hungry, no food. If anyone is near with bread or meat, I would be grateful."}
+- 23:56 act: {"actions":[{"do":"break","at":{"x":-940,"y":50,"z":-3033}},{"do":"break","at":{"x":-940,"y":51,"z":-3033}},{"do":"goto","target":{"x":-940,"y":51,"z":-3033}}]}
+- 23:56 act: {"actions":[{"do":"break","at":{"x":-940,"y":50,"z":-3034}},{"do":"break","at":{"x":-940,"y":51,"z":-3034}},{"do":"goto","target":{"x":-940,"y":51,"z":-3034}}]}
+- 23:56 act: {"actions":[{"do":"break","at":{"x":-940,"y":50,"z":-3035}},{"do":"goto","target":{"x":-940,"y":50,"z":-3035}},{"do":"break","at":{"x":-940,"y":50,"z":-3036}},{"do":"goto","target":{"x":-940,"y":50,"z
+- 23:56 act: {"actions":[{"do":"break","at":{"x":-940,"y":50,"z":-3037}},{"do":"goto","target":{"x":-940,"y":50,"z":-3037}},{"do":"break","at":{"x":-940,"y":51,"z":-3037}},{"do":"break","at":{"x":-940,"y":51,"z":-
+- 23:57 act: {"actions":[{"do":"break","at":{"x":-940,"y":50,"z":-3038}},{"do":"goto","target":{"x":-940,"y":50,"z":-3038}},{"do":"break","at":{"x":-940,"y":50,"z":-3039}},{"do":"goto","target":{"x":-940,"y":50,"z
+- 23:57 act: {"actions":[{"do":"break","at":{"x":-940,"y":50,"z":-3040}},{"do":"goto","target":{"x":-940,"y":50,"z":-3040}},{"do":"break","at":{"x":-940,"y":50,"z":-3041}},{"do":"goto","target":{"x":-940,"y":50,"z
+- 23:58 act: {"actions":[{"do":"break","at":{"x":-940,"y":50,"z":-3042}},{"do":"goto","target":{"x":-940,"y":50,"z":-3042}},{"do":"break","at":{"x":-940,"y":50,"z":-3043}},{"do":"goto","target":{"x":-940,"y":50,"z
+- 23:58 act: {"actions":[{"do":"break","at":{"x":-940,"y":50,"z":-3042}},{"do":"break","at":{"x":-940,"y":51,"z":-3042}},{"do":"goto","target":{"x":-940,"y":50,"z":-3042}},{"do":"break","at":{"x":-940,"y":50,"z":-
+- 23:58 act: {"actions":[{"do":"goto","target":{"x":-940,"y":50,"z":-3042}}]}
